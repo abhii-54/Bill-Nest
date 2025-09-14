@@ -1,0 +1,58 @@
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .form-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 300px;
+    }
+    .form-container h2 {
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .btn-admin {
+      background: #007BFF;
+      color: white;
+    }
+    .btn-admin:hover {
+      background: #0056b3;
+    }
+    .btn-user {
+      background: #28a745;
+      color: white;
+    }
+    .btn-user:hover {
+      background: #1e7e34;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container"><h2>Welcome To Bill-Nest</h2>
+    <p class="subtitle">Select Your Login Preference</p>
+    <button class="btn btn-admin" onclick="location.href='login_admin.html'">Admin</button>
+    <button class="btn btn-user" onclick="location.href='login.html'">User</button>
+  </div>
+</body>
+</html>
